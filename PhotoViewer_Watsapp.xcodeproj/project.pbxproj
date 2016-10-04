@@ -13,6 +13,8 @@
 		755680A61DA3EF1B0005B912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755680A41DA3EF1B0005B912 /* Main.storyboard */; };
 		755680A81DA3EF1B0005B912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755680A71DA3EF1B0005B912 /* Assets.xcassets */; };
 		755680AB1DA3EF1B0005B912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755680A91DA3EF1B0005B912 /* LaunchScreen.storyboard */; };
+		755680B51DA3EF750005B912 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755680B31DA3EF750005B912 /* PhotoViewController.m */; };
+		755680B61DA3EF750005B912 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755680B41DA3EF750005B912 /* PhotoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		755680A71DA3EF1B0005B912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		755680AA1DA3EF1B0005B912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		755680AC1DA3EF1B0005B912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755680B21DA3EF750005B912 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		755680B31DA3EF750005B912 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		755680B41DA3EF750005B912 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				755680A91DA3EF1B0005B912 /* LaunchScreen.storyboard */,
 				755680AC1DA3EF1B0005B912 /* Info.plist */,
 				7556809B1DA3EF1B0005B912 /* Supporting Files */,
+				755680B21DA3EF750005B912 /* PhotoViewController.h */,
+				755680B31DA3EF750005B912 /* PhotoViewController.m */,
+				755680B41DA3EF750005B912 /* PhotoViewController.xib */,
 			);
 			path = PhotoViewer_Watsapp;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				755680AB1DA3EF1B0005B912 /* LaunchScreen.storyboard in Resources */,
+				755680B61DA3EF750005B912 /* PhotoViewController.xib in Resources */,
 				755680A81DA3EF1B0005B912 /* Assets.xcassets in Resources */,
 				755680A61DA3EF1B0005B912 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				755680A31DA3EF1B0005B912 /* ViewController.m in Sources */,
+				755680B51DA3EF750005B912 /* PhotoViewController.m in Sources */,
 				755680A01DA3EF1B0005B912 /* AppDelegate.m in Sources */,
 				7556809D1DA3EF1B0005B912 /* main.m in Sources */,
 			);
